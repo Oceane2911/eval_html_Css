@@ -1,16 +1,53 @@
 
-
-main.app-wrapper div.app_content{
+/*Nous mettons en place les élémnts du sons en place sois, mettre le titre de album et les autes info à côté de la photo*/
+.album {
     display: flex;
-    justify-content: center;
     flex-direction: row;
-    justify-content: space-between;
 }
 .album > img{
     display: flex;
     justify-content: flex-start;
+
 }
 .album-info{
     display: flex;
     flex-direction: column;
+}
+.app-content ul > li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.app-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+}
+.current {
+    display: flex;
+    flex-direction: row;
+
+}
+.current > img{
+    display: flex;
+    justify-content: flex-start;
+}
+.current > div {
+    display: flex;
+    flex-direction: column;
+
+}
+.app-wapper{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.app-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position:static;
 }
