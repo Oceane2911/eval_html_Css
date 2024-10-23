@@ -1,0 +1,16 @@
+
+
+main.app-wrapper div.app_content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.album > img{
+    display: flex;
+    justify-content: flex-start;
+}
+.album-info{
+    display: flex;
+    flex-direction: column;
+}
