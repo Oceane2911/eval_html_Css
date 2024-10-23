@@ -13,11 +13,16 @@
     display: flex;
     flex-direction: column;
 }
+/*Ici nous cherchons a ce que la liste soit un colonne et que 
+chaque élément p soit espace soit que le titre soit un début et que le temps soit 
+à la fin de la cellule*/
 .app-content ul > li{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+/*il faut mettre les écriture à côté de l'image et que
+les boutons soit à la fin met reste collé avec l'autre partie */
 .app-bottom{
     display: flex;
     flex-direction: row;
@@ -49,5 +54,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    position:static;
+    /*position:absolute;*/
+    background-position: bottom;
 }
