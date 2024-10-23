@@ -69,7 +69,7 @@ a:hover {
     @@@ Partie tracklist
 ---------------------------------------------------------------------- */
 .app-content .tracklist {
-    background: #313131;
+    background: #000;
     list-style: none;
     margin: 0;
     padding: 0;

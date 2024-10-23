@@ -54,6 +54,6 @@ les boutons soit à la fin met reste collé avec l'autre partie */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /*position:absolute;*/
+    position:absolute;
     background-position: bottom;
 }
